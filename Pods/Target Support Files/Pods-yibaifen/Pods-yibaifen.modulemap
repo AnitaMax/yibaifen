@@ -1,0 +1,6 @@
+framework module Pods_yibaifen {
+  umbrella header "Pods-yibaifen-umbrella.h"
+
+  export *
+  module * { export * }
+}
