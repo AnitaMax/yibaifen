@@ -18,24 +18,37 @@ class TodayTaskTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        //self.tableView.isScrollEnabled=false
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 2
+        if (section==0){
+            return 1
+        }
+        else if (section==1){
+            return 2
+        }
+        return 3
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "todayTaskCell", for: indexPath)
+        let cell:TodayTaskTableViewCell = tableView.dequeueReusableCell(withIdentifier: "todayTaskCell", for: indexPath) as! TodayTaskTableViewCell
 
+        if(indexPath.row==0&&indexPath.section==1){
+            cell.backgroundColor=UIColor.red
+        }
+        else{
+            cell.backgroundColor=UIColor.green
+        }
         // Configure the cell...
 
         return cell
