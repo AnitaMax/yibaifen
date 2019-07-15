@@ -274,24 +274,16 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDR-ow-rXX">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="复习高等数学" id="N59-0L-3Km"/>
+                                    <navigationItem title="复习高等数学" id="N59-0L-3Km">
+                                        <barButtonItem key="leftBarButtonItem" title="编辑" id="lrO-if-1Zw"/>
+                                        <barButtonItem key="rightBarButtonItem" title="倒计时" id="E97-qm-8Y7">
+                                            <connections>
+                                                <action selector="reverseTimeModel:" destination="QFB-wP-SaT" id="LFp-iK-vdg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3a-eh-dzC">
-                                <rect key="frame" x="133" y="500" width="107" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.1068627098" green="0.4470701514" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="开始学习!"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="startLearn:" destination="QFB-wP-SaT" eventType="touchUpInside" id="6S0-8b-9Vo"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YI-Bw-Y5z">
                                 <rect key="frame" x="70" y="208" width="235" height="235"/>
                                 <subviews>
@@ -316,21 +308,48 @@
                                     <constraint firstItem="mM9-Uh-fk9" firstAttribute="top" secondItem="3YI-Bw-Y5z" secondAttribute="top" id="pOk-eR-NUw"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjy-G5-3gm">
+                                <rect key="frame" x="132" y="523" width="112" height="34"/>
+                                <color key="backgroundColor" red="0.1068627098" green="0.4470701514" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="开始学习! ">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startLearn:" destination="QFB-wP-SaT" eventType="touchUpInside" id="0if-fT-qI0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips:可以看一看昨天讲过的内容哦!" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dug-A0-geJ">
+                                <rect key="frame" x="58" y="703" width="259" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="0gK-bX-4J8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="iWj-2a-3pJ" firstAttribute="bottom" secondItem="dug-A0-geJ" secondAttribute="bottom" constant="10" id="1tn-ZD-7Al"/>
+                            <constraint firstItem="Qjy-G5-3gm" firstAttribute="top" secondItem="3YI-Bw-Y5z" secondAttribute="bottom" constant="80" id="4FP-zc-WW5"/>
                             <constraint firstItem="rDR-ow-rXX" firstAttribute="top" secondItem="iWj-2a-3pJ" secondAttribute="top" id="5iT-Eg-54V"/>
+                            <constraint firstItem="Qjy-G5-3gm" firstAttribute="centerX" secondItem="iWj-2a-3pJ" secondAttribute="centerX" id="AeI-rv-Te3"/>
                             <constraint firstItem="iWj-2a-3pJ" firstAttribute="trailing" secondItem="3YI-Bw-Y5z" secondAttribute="trailing" constant="70" id="Hwd-Vs-det"/>
                             <constraint firstItem="3YI-Bw-Y5z" firstAttribute="top" secondItem="rDR-ow-rXX" secondAttribute="bottom" constant="120" id="LTY-mb-wYR"/>
                             <constraint firstItem="rDR-ow-rXX" firstAttribute="leading" secondItem="2S5-Vn-KhD" secondAttribute="leading" id="Poz-Nk-VXN"/>
                             <constraint firstItem="rDR-ow-rXX" firstAttribute="trailing" secondItem="iWj-2a-3pJ" secondAttribute="trailing" id="Pzk-z7-P1G"/>
+                            <constraint firstItem="dug-A0-geJ" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="58" id="hNK-rk-sk1"/>
+                            <constraint firstItem="dug-A0-geJ" firstAttribute="centerX" secondItem="3YI-Bw-Y5z" secondAttribute="centerX" id="oag-lZ-m0T"/>
                             <constraint firstItem="3YI-Bw-Y5z" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="70" id="zq0-tZ-zVZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iWj-2a-3pJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="专注" image="fanqie" id="S8W-yL-5wb"/>
                     <connections>
-                        <outlet property="startBut" destination="b3a-eh-dzC" id="yGU-RB-JGd"/>
+                        <outlet property="editBut" destination="lrO-if-1Zw" id="L3w-2N-l4t"/>
+                        <outlet property="reserBut" destination="E97-qm-8Y7" id="i2l-k4-Qj0"/>
+                        <outlet property="startBut" destination="Qjy-G5-3gm" id="vGe-qT-KBq"/>
                         <outlet property="timeLabel" destination="pjg-1s-Hfk" id="pKS-Ee-pbM"/>
                         <outlet property="timeView" destination="3YI-Bw-Y5z" id="bSN-5a-DKg"/>
                     </connections>

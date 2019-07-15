@@ -18,6 +18,7 @@
 		E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934BE22DB7879007DEF42 /* floatAddButton.swift */; };
 		E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C022DB7989007DEF42 /* taskViewController.swift */; };
 		E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C322DB7EB0007DEF42 /* addViewController.swift */; };
+		E6D8513122DCDF9800072B12 /* todo.md in Resources */ = {isa = PBXBuildFile; fileRef = E6D8513022DCDF9800072B12 /* todo.md */; };
 		E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410022DC7FC300711C16 /* tomatoViewController.swift */; };
 		E6F7410322DC89B900711C16 /* thisWeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410222DC89B900711C16 /* thisWeekCollectionViewCell.swift */; };
 		E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */; };
@@ -40,6 +41,7 @@
 		E6A934BE22DB7879007DEF42 /* floatAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatAddButton.swift; sourceTree = "<group>"; };
 		E6A934C022DB7989007DEF42 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
 		E6A934C322DB7EB0007DEF42 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		E6D8513022DCDF9800072B12 /* todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = todo.md; sourceTree = "<group>"; };
 		E6F7410022DC7FC300711C16 /* tomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoViewController.swift; sourceTree = "<group>"; };
 		E6F7410222DC89B900711C16 /* thisWeekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = thisWeekCollectionViewCell.swift; path = /Users/hp/Documents/yibaifen/yibaifen/thisweek/thisWeekCollectionViewCell.swift; sourceTree = "<absolute>"; };
 		E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				E6A934B622DB57C0007DEF42 /* today */,
 				E68BD25722D856EF00FF3688 /* LaunchScreen.storyboard */,
 				E68BD25A22D856EF00FF3688 /* Info.plist */,
+				E6D8513022DCDF9800072B12 /* todo.md */,
 			);
 			path = yibaifen;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D8513122DCDF9800072B12 /* todo.md in Resources */,
 				E68BD25922D856EF00FF3688 /* LaunchScreen.storyboard in Resources */,
 				E68BD25622D856EF00FF3688 /* Assets.xcassets in Resources */,
 				E68BD25422D856EE00FF3688 /* Main.storyboard in Resources */,

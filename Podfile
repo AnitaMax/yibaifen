@@ -7,6 +7,7 @@ target 'yibaifen' do
 
   # Pods for yibaifen
   pod 'Eureka'
+  pod 'FaveButton'
 
 
 end
