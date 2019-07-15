@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--list-->
+        <!--列表-->
         <scene sceneID="KCw-Cd-4mC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="leU-la-0S3" customClass="taskViewController" customModule="yibaifen" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="list" image="list" id="j95-dg-Eat"/>
+                    <tabBarItem key="tabBarItem" title="列表" image="list" id="j95-dg-Eat"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yys-kP-CBB">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -40,13 +40,14 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="leU-la-0S3" kind="relationship" relationship="viewControllers" id="pV7-kC-En3"/>
-                        <segue destination="j7W-AU-vyS" kind="relationship" relationship="viewControllers" id="GHn-70-QYF"/>
+                        <segue destination="leU-la-0S3" kind="relationship" relationship="viewControllers" id="B9Y-EW-ZP3"/>
+                        <segue destination="QFB-wP-SaT" kind="relationship" relationship="viewControllers" id="9Zi-oP-ASY"/>
+                        <segue destination="j7W-AU-vyS" kind="relationship" relationship="viewControllers" id="VZA-Wb-g6j"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4WH-P0-Clb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="343"/>
+            <point key="canvasLocation" x="-1188" y="389"/>
         </scene>
         <!--本周的学习-->
         <scene sceneID="U7Q-2Z-RVc">
@@ -227,13 +228,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5iZ-Ip-pk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2393" y="524"/>
+            <point key="canvasLocation" x="2652" y="1189"/>
         </scene>
-        <!--My-->
+        <!--我的-->
         <scene sceneID="bLB-Na-wGb">
             <objects>
                 <navigationController id="j7W-AU-vyS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My" id="huV-lW-RjR"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="my" id="huV-lW-RjR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DHS-lG-TdJ">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -244,7 +245,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aSn-Lj-zSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1512" y="524"/>
+            <point key="canvasLocation" x="1463" y="1189"/>
         </scene>
         <!--add-->
         <scene sceneID="RSW-h1-kVN">
@@ -262,9 +263,87 @@
             </objects>
             <point key="canvasLocation" x="1438" y="-1126"/>
         </scene>
+        <!--专注-->
+        <scene sceneID="RxJ-xu-7dg">
+            <objects>
+                <viewController id="QFB-wP-SaT" customClass="tomatoViewController" customModule="yibaifen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2S5-Vn-KhD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDR-ow-rXX">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="复习高等数学" id="N59-0L-3Km"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3a-eh-dzC">
+                                <rect key="frame" x="133" y="500" width="107" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1068627098" green="0.4470701514" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="开始学习!"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startLearn:" destination="QFB-wP-SaT" eventType="touchUpInside" id="6S0-8b-9Vo"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YI-Bw-Y5z">
+                                <rect key="frame" x="70" y="208" width="235" height="235"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mM9-Uh-fk9">
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="235"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjg-1s-Hfk">
+                                                <rect key="frame" x="0.0" y="0.0" width="235" height="235"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mM9-Uh-fk9" secondAttribute="trailing" id="5Nm-zY-qNU"/>
+                                    <constraint firstItem="mM9-Uh-fk9" firstAttribute="leading" secondItem="3YI-Bw-Y5z" secondAttribute="leading" id="9KV-tq-T1i"/>
+                                    <constraint firstAttribute="width" secondItem="3YI-Bw-Y5z" secondAttribute="height" multiplier="1:1" id="GZp-HA-aAI"/>
+                                    <constraint firstAttribute="bottom" secondItem="mM9-Uh-fk9" secondAttribute="bottom" id="XLC-1U-8Hb"/>
+                                    <constraint firstItem="mM9-Uh-fk9" firstAttribute="top" secondItem="3YI-Bw-Y5z" secondAttribute="top" id="pOk-eR-NUw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rDR-ow-rXX" firstAttribute="top" secondItem="iWj-2a-3pJ" secondAttribute="top" id="5iT-Eg-54V"/>
+                            <constraint firstItem="iWj-2a-3pJ" firstAttribute="trailing" secondItem="3YI-Bw-Y5z" secondAttribute="trailing" constant="70" id="Hwd-Vs-det"/>
+                            <constraint firstItem="3YI-Bw-Y5z" firstAttribute="top" secondItem="rDR-ow-rXX" secondAttribute="bottom" constant="120" id="LTY-mb-wYR"/>
+                            <constraint firstItem="rDR-ow-rXX" firstAttribute="leading" secondItem="2S5-Vn-KhD" secondAttribute="leading" id="Poz-Nk-VXN"/>
+                            <constraint firstItem="rDR-ow-rXX" firstAttribute="trailing" secondItem="iWj-2a-3pJ" secondAttribute="trailing" id="Pzk-z7-P1G"/>
+                            <constraint firstItem="3YI-Bw-Y5z" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="70" id="zq0-tZ-zVZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iWj-2a-3pJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="专注" image="fanqie" id="S8W-yL-5wb"/>
+                    <connections>
+                        <outlet property="startBut" destination="b3a-eh-dzC" id="yGU-RB-JGd"/>
+                        <outlet property="timeLabel" destination="pjg-1s-Hfk" id="pKS-Ee-pbM"/>
+                        <outlet property="timeView" destination="3YI-Bw-Y5z" id="bSN-5a-DKg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UjA-MO-M0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1437.5999999999999" y="326.60098522167488"/>
+        </scene>
     </scenes>
     <resources>
         <image name="chang" width="30" height="30"/>
+        <image name="fanqie" width="30" height="30"/>
         <image name="list" width="30" height="30"/>
+        <image name="my" width="30" height="30"/>
     </resources>
 </document>

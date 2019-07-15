@@ -43,13 +43,7 @@ class TodayTaskTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:TodayTaskTableViewCell = tableView.dequeueReusableCell(withIdentifier: "todayTaskCell", for: indexPath) as! TodayTaskTableViewCell
 
-        if(indexPath.row==0&&indexPath.section==1){
-            cell.backgroundColor=UIColor.red
-        }
-        else{
-            cell.backgroundColor=UIColor.green
-        }
-        // Configure the cell...
+
 
         return cell
     }

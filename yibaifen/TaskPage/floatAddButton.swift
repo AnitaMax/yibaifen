@@ -26,7 +26,7 @@ class floatAddButton: UIButton {
         let w = self.frame.size.width;
         let h = self.frame.size.height;
         
-        let frame:CGRect = CGRect(x: self.superview!.frame.size.width - w, y: self.superview!.frame.size.height - h-60, width: w, height: h)
+        let frame:CGRect = CGRect(x: self.superview!.frame.size.width - w, y: self.superview!.frame.size.height - h-80, width: w, height: h)
         self.frame = frame
     }
 

@@ -19,6 +19,7 @@
 		E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934BE22DB7879007DEF42 /* floatAddButton.swift */; };
 		E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C022DB7989007DEF42 /* taskViewController.swift */; };
 		E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C322DB7EB0007DEF42 /* addViewController.swift */; };
+		E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410022DC7FC300711C16 /* tomatoViewController.swift */; };
 		E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */; };
 		E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62522D9CC0600015811 /* TodayTaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		E6A934BE22DB7879007DEF42 /* floatAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatAddButton.swift; sourceTree = "<group>"; };
 		E6A934C022DB7989007DEF42 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
 		E6A934C322DB7EB0007DEF42 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		E6F7410022DC7FC300711C16 /* tomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoViewController.swift; sourceTree = "<group>"; };
 		E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewController.swift; sourceTree = "<group>"; };
 		E6FCB62522D9CC0600015811 /* TodayTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				E68BD25022D856EE00FF3688 /* ViewController.swift */,
 				E68BD25222D856EE00FF3688 /* Main.storyboard */,
 				E6A934C322DB7EB0007DEF42 /* addViewController.swift */,
+				E6F7410022DC7FC300711C16 /* tomatoViewController.swift */,
 				E6A934C222DB7CEB007DEF42 /* TaskPage */,
 				E6A934BB22DB597C007DEF42 /* thisweek */,
 				E68BD25522D856EF00FF3688 /* Assets.xcassets */,
@@ -255,6 +258,7 @@
 				E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */,
 				E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */,
 				E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */,
+				E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */,
 				E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */,
 				E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */,
 				E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */,

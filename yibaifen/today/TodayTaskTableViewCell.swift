@@ -13,7 +13,7 @@ class TodayTaskTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.backgroundColor=UIColor.orange
+        //self.backgroundColor=UIColor.orange
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
