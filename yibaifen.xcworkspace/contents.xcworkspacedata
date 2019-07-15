@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/hp/Documents/yibaifen/yibaifen/thisweek/thisWeekCollectionViewCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:yibaifen.xcodeproj">
    </FileRef>
    <FileRef
