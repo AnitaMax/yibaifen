@@ -15,7 +15,6 @@
 		E68BD25622D856EF00FF3688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68BD25522D856EF00FF3688 /* Assets.xcassets */; };
 		E68BD25922D856EF00FF3688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68BD25722D856EF00FF3688 /* LaunchScreen.storyboard */; };
 		E6A934B822DB586D007DEF42 /* thisWeekCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934B722DB586D007DEF42 /* thisWeekCollectionView.swift */; };
-		E6A934BD22DB59D3007DEF42 /* thisWeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934BC22DB59D3007DEF42 /* thisWeekCollectionViewCell.swift */; };
 		E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934BE22DB7879007DEF42 /* floatAddButton.swift */; };
 		E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C022DB7989007DEF42 /* taskViewController.swift */; };
 		E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C322DB7EB0007DEF42 /* addViewController.swift */; };
@@ -37,7 +36,6 @@
 		E68BD25822D856EF00FF3688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E68BD25A22D856EF00FF3688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6A934B722DB586D007DEF42 /* thisWeekCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisWeekCollectionView.swift; sourceTree = "<group>"; };
-		E6A934BC22DB59D3007DEF42 /* thisWeekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = thisWeekCollectionViewCell.swift; path = ../../thisWeekCollectionViewCell.swift; sourceTree = "<group>"; };
 		E6A934BE22DB7879007DEF42 /* floatAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatAddButton.swift; sourceTree = "<group>"; };
 		E6A934C022DB7989007DEF42 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
 		E6A934C322DB7EB0007DEF42 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 		E6A934BB22DB597C007DEF42 /* thisweek */ = {
 			isa = PBXGroup;
 			children = (
-				E6A934BC22DB59D3007DEF42 /* thisWeekCollectionViewCell.swift */,
 				E6A934B722DB586D007DEF42 /* thisWeekCollectionView.swift */,
 			);
 			path = thisweek;
@@ -264,7 +261,6 @@
 				E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */,
 				E6677E3322DB104500D6151C /* CardView.swift in Sources */,
 				E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */,
-				E6A934BD22DB59D3007DEF42 /* thisWeekCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
