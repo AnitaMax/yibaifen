@@ -13,6 +13,7 @@
 		E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */; };
 		E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */; };
 		E604126F22DDCEF100DF43A2 /* InfoMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */; };
+		E604127122DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */; };
 		E6677E3322DB104500D6151C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6677E3222DB104500D6151C /* CardView.swift */; };
 		E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BD24E22D856EE00FF3688 /* AppDelegate.swift */; };
 		E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BD25022D856EE00FF3688 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMeTableViewCell.swift; sourceTree = "<group>"; };
 		E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMeTableViewCell.swift; sourceTree = "<group>"; };
 		E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingUITableiewController.swift; sourceTree = "<group>"; };
+		E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thisWeekCollectionViewCell.swift; sourceTree = "<group>"; };
 		E6677E3222DB104500D6151C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E68BD24B22D856EE00FF3688 /* yibaifen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yibaifen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68BD24E22D856EE00FF3688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		E6A934BB22DB597C007DEF42 /* thisweek */ = {
 			isa = PBXGroup;
 			children = (
+				E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */,
 				E6A934B722DB586D007DEF42 /* thisWeekCollectionView.swift */,
 			);
 			path = thisweek;
@@ -290,6 +293,7 @@
 				E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */,
 				E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */,
 				E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */,
+				E604127122DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift in Sources */,
 				E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */,
 				E6677E3322DB104500D6151C /* CardView.swift in Sources */,
 				E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */,
