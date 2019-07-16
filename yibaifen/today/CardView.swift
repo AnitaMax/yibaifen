@@ -31,18 +31,22 @@ class CardView: UIView {
 
     @IBInspectable var shadowOffsetWidth: Int = 1
     @IBInspectable var shadowOffsetHeight: Int = 2
-    @IBInspectable var shadowColor: UIColor? = UIColor.black
+    @IBInspectable var shadowColor: UIColor? = UIColor.orange
     @IBInspectable var shadowOpacity: Float = 0.5
-
+    @IBInspectable var cardcolor:UIColor? = UIColor.white
     override func layoutSubviews() {
         layer.cornerRadius = cornerRadius
         let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
 
-        layer.masksToBounds = false
+        //layer.masksToBounds = false
+        layer.borderColor = shadowColor?.cgColor
+        layer.borderWidth = 2
         layer.shadowColor = shadowColor?.cgColor
         layer.shadowOffset = CGSize(width: shadowOffsetWidth, height: shadowOffsetHeight);
         layer.shadowOpacity = shadowOpacity
         layer.shadowPath = shadowPath.cgPath
+        backgroundColor = cardcolor
+    
     }
 
 }

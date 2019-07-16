@@ -26,17 +26,11 @@ class TodayTaskTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 2
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        if (section==0){
-            return 1
-        }
-        else if (section==1){
-            return 2
-        }
         return 3
     }
 
@@ -44,7 +38,18 @@ class TodayTaskTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:TodayTaskTableViewCell = tableView.dequeueReusableCell(withIdentifier: "todayTaskCell", for: indexPath) as! TodayTaskTableViewCell
 
-
+        if(indexPath.row==2){
+            cell.setColor(color: UIColor.red)
+            cell.setCell(content: "C++", time: "下午1:30 - 3:00", place: "精心楼")
+        }
+        else if(indexPath.row == 1 ){
+            cell.setColor(color: UIColor.blue)
+            cell.setCell(content: "复习高数", time: "上午10:00 - 11:30", place: "精心楼")
+        }
+        else if(indexPath.row == 0 ){
+            cell.setColor(color: UIColor.orange)
+            cell.setCell(content: "复习英语", time: "上午8:00 - 9:30", place: "逸夫楼")
+        }
 
         return cell
     }
