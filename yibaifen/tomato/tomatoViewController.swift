@@ -93,6 +93,9 @@ class tomatoViewController: UIViewController {
             updateTimeLabel()
             
         }
+        
+        let endVC=(self.storyboard?.instantiateViewController(withIdentifier: "callback"))!
+        self.navigationController?.pushViewController(endVC, animated: true)
     }
         
     @IBAction func reverseTimeModel(_ sender: UIBarButtonItem) {
@@ -145,6 +148,7 @@ class tomatoViewController: UIViewController {
     @IBAction func startLearn(_ sender: UIButton) {
 
         if(!start){
+            timeView.layer.cornerRadius = timeView.frame.size.width / 2
             startBut.setTitle("  停止学习!  " ,for: .normal)
             startBut.backgroundColor = UIColor.white
             startBut.layer.borderWidth = 1
