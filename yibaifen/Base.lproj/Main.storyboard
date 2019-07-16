@@ -432,12 +432,11 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Nce-G8-B1D" firstAttribute="centerY" secondItem="lDp-hc-McP" secondAttribute="centerY" id="7mC-HK-sf4"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="6da-ud-TlY" secondAttribute="trailing" constant="93" id="9Cr-Ta-17h"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="6da-ud-TlY" secondAttribute="trailing" constant="30" id="9Cr-Ta-17h"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nce-G8-B1D" secondAttribute="trailing" constant="20" symbolic="YES" id="C1h-E3-wJn"/>
                                         <constraint firstItem="MTi-Qe-4NB" firstAttribute="leading" secondItem="lDp-hc-McP" secondAttribute="leadingMargin" constant="10" id="JAp-b4-LdN"/>
                                         <constraint firstItem="Nce-G8-B1D" firstAttribute="centerY" secondItem="6da-ud-TlY" secondAttribute="centerY" id="NJE-r7-60x"/>
                                         <constraint firstItem="MTi-Qe-4NB" firstAttribute="centerY" secondItem="lDp-hc-McP" secondAttribute="centerY" id="P0q-IG-plJ"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="6da-ud-TlY" secondAttribute="trailing" constant="30" id="Uu1-Ee-dmU"/>
                                         <constraint firstItem="Nce-G8-B1D" firstAttribute="leading" secondItem="MTi-Qe-4NB" secondAttribute="trailing" constant="42" id="fjb-75-fZe"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="Nce-G8-B1D" secondAttribute="bottom" constant="-5" id="kwc-wA-Jlr"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="6da-ud-TlY" secondAttribute="bottom" constant="19" id="qOt-Nm-JfT"/>
