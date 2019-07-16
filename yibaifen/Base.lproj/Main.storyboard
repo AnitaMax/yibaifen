@@ -57,6 +57,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aT7-sw-8DA">
+                                <rect key="frame" x="0.0" y="88" width="30" height="25.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="qlg-Tx-pXw"/>
+                                </constraints>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="10" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uld-y0-OOQ">
                                 <rect key="frame" x="45" y="93" width="315" height="20.333333333333329"/>
                                 <subviews>
@@ -107,44 +113,108 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Dgp-MY-RHS" customClass="thisWeekCollectionView" customModule="yibaifen" customModuleProvider="target">
-                                <rect key="frame" x="30" y="123.33333333333331" width="345" height="605.66666666666674"/>
+                                <rect key="frame" x="0.0" y="123.33333333333331" width="375" height="605.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QAr-BW-AQw">
-                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="itemSize" width="146" height="172"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="thisWeekCell" id="x4G-MH-iuT" customClass="thisWeekCollectionViewCell" customModule="yibaifen" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="172"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="146" height="172"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-v5-zRP">
+                                                    <rect key="frame" x="0.0" y="0.0" width="146" height="172"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="复习高数" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbC-Br-GbC">
+                                                            <rect key="frame" x="0.0" y="0.0" width="146" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="60" id="BPa-5q-RLE"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="逸夫楼 b121" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNi-8L-KjS">
+                                                            <rect key="frame" x="0.0" y="60" width="146" height="112"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="LbV-v5-zRP" firstAttribute="leading" secondItem="x4G-MH-iuT" secondAttribute="leading" id="0ai-fC-n6E"/>
+                                            <constraint firstAttribute="trailing" secondItem="LbV-v5-zRP" secondAttribute="trailing" id="Dmj-s1-4bk"/>
+                                            <constraint firstAttribute="bottom" secondItem="LbV-v5-zRP" secondAttribute="bottom" id="fLT-6u-Juc"/>
+                                            <constraint firstItem="LbV-v5-zRP" firstAttribute="top" secondItem="x4G-MH-iuT" secondAttribute="top" id="l8k-oI-sUU"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="contentLabel" destination="UbC-Br-GbC" id="kHa-78-KB5"/>
+                                            <outlet property="placeLabel" destination="lNi-8L-KjS" id="Tgq-I5-yvh"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="number" id="lBI-89-Waw" customClass="numberCollectionViewCell" customModule="yibaifen" customModuleProvider="target">
+                                        <rect key="frame" x="229" y="0.0" width="146" height="172"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="146" height="172"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DJR-e7-NEw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="146" height="172"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXl-DF-miD">
+                                                            <rect key="frame" x="69.333333333333329" y="0.0" width="7.6666666666666714" height="172"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="DJR-e7-NEw" secondAttribute="bottom" id="Nld-ow-0tJ"/>
+                                            <constraint firstItem="DJR-e7-NEw" firstAttribute="top" secondItem="lBI-89-Waw" secondAttribute="top" id="aYQ-ju-rLN"/>
+                                            <constraint firstItem="DJR-e7-NEw" firstAttribute="leading" secondItem="lBI-89-Waw" secondAttribute="leading" id="bMM-YV-bS5"/>
+                                            <constraint firstAttribute="trailing" secondItem="DJR-e7-NEw" secondAttribute="trailing" id="t7i-ow-YgL"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="numLabel" destination="zXl-DF-miD" id="Y1a-hj-iDn"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aT7-sw-8DA">
-                                <rect key="frame" x="0.0" y="88" width="30" height="641"/>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="aT7-sw-8DA" firstAttribute="bottom" secondItem="Uld-y0-OOQ" secondAttribute="bottom" id="2yx-56-lol"/>
                             <constraint firstItem="C1t-Fc-nUl" firstAttribute="trailing" secondItem="Uld-y0-OOQ" secondAttribute="trailing" constant="15" id="8aC-JZ-P1a"/>
-                            <constraint firstAttribute="trailing" secondItem="aT7-sw-8DA" secondAttribute="trailing" constant="345" id="Bn5-d1-08I"/>
+                            <constraint firstItem="Uld-y0-OOQ" firstAttribute="leading" secondItem="aT7-sw-8DA" secondAttribute="trailing" constant="15" id="8yv-A1-FZd"/>
+                            <constraint firstItem="aT7-sw-8DA" firstAttribute="leading" secondItem="C1t-Fc-nUl" secondAttribute="leading" id="BOh-nL-f3F"/>
                             <constraint firstItem="Uld-y0-OOQ" firstAttribute="top" secondItem="C1t-Fc-nUl" secondAttribute="top" constant="5" id="Eko-Yp-ad8"/>
-                            <constraint firstItem="Uld-y0-OOQ" firstAttribute="leading" secondItem="aT7-sw-8DA" secondAttribute="trailing" constant="15" id="Hda-dg-11Q"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="trailing" secondItem="C1t-Fc-nUl" secondAttribute="trailing" id="JS5-d0-yVk"/>
                             <constraint firstItem="aT7-sw-8DA" firstAttribute="bottom" secondItem="Dgp-MY-RHS" secondAttribute="bottom" id="RCD-Ok-PUD"/>
                             <constraint firstItem="aT7-sw-8DA" firstAttribute="top" secondItem="C1t-Fc-nUl" secondAttribute="top" id="WIM-jV-1Z2"/>
+                            <constraint firstItem="Dgp-MY-RHS" firstAttribute="leading" secondItem="C1t-Fc-nUl" secondAttribute="leading" id="dFB-jQ-Nii"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="bottom" secondItem="C1t-Fc-nUl" secondAttribute="bottom" id="dIJ-Ed-m9z"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="top" secondItem="Uld-y0-OOQ" secondAttribute="bottom" constant="10" id="fvB-sO-pZD"/>
-                            <constraint firstItem="Dgp-MY-RHS" firstAttribute="leading" secondItem="aT7-sw-8DA" secondAttribute="trailing" id="p9o-aZ-0E7"/>
-                            <constraint firstItem="aT7-sw-8DA" firstAttribute="leading" secondItem="JRg-yJ-DN0" secondAttribute="leading" id="r0D-sn-BgX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C1t-Fc-nUl"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RCD-Ok-PUD"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="本周的学习" id="A8D-ZL-Eng">
                         <barButtonItem key="rightBarButtonItem" title="生成复习!" id="S6x-vg-1TZ"/>

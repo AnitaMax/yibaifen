@@ -8,11 +8,28 @@
 import UIKit
 
 class thisWeekCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var contentLabel: UILabel!
+    
+    @IBOutlet weak var placeLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.layer.borderColor = UIColor.blue.cgColor
+        contentLabel.text = ""
+        placeLabel.text = ""
+        self.isUserInteractionEnabled = false
+
+    }
+
+    func setStyle(color:UIColor){
+        self.layer.borderColor = color.cgColor
         self.layer.borderWidth = 1
-        self.layer.cornerRadius = 0
+        self.layer.cornerRadius = 1
         self.layer.masksToBounds = true
+    }
+    func setCell(content:String,place:String,color:UIColor){
+        contentLabel.text = content
+        placeLabel.text = place
+        setStyle(color: color)
+        self.isUserInteractionEnabled = true
     }
 }
