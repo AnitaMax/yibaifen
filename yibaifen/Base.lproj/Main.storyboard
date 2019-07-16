@@ -41,7 +41,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="leU-la-0S3" kind="relationship" relationship="viewControllers" id="B9Y-EW-ZP3"/>
-                        <segue destination="QFB-wP-SaT" kind="relationship" relationship="viewControllers" id="9Zi-oP-ASY"/>
+                        <segue destination="LHG-0p-789" kind="relationship" relationship="viewControllers" id="9Zi-oP-ASY"/>
                         <segue destination="j7W-AU-vyS" kind="relationship" relationship="viewControllers" id="VZA-Wb-g6j"/>
                     </connections>
                 </tabBarController>
@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="10" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uld-y0-OOQ">
-                                <rect key="frame" x="15" y="93" width="345" height="20.333333333333329"/>
+                                <rect key="frame" x="45" y="93" width="315" height="20.333333333333329"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iak-hd-vNU">
                                         <rect key="frame" x="0.0" y="0.0" width="17.333333333333332" height="20.333333333333332"/>
@@ -68,37 +68,37 @@
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdm-uu-o6n">
-                                        <rect key="frame" x="54.666666666666671" y="0.0" width="17.333333333333329" height="20.333333333333332"/>
+                                        <rect key="frame" x="49.666666666666671" y="0.0" width="17.333333333333329" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe8-6E-Oag">
-                                        <rect key="frame" x="109.33333333333333" y="0.0" width="17.333333333333329" height="20.333333333333332"/>
+                                        <rect key="frame" x="99.333333333333343" y="0.0" width="17.333333333333329" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="四" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JD-xZ-WFK">
-                                        <rect key="frame" x="164" y="0.0" width="17.333333333333343" height="20.333333333333332"/>
+                                        <rect key="frame" x="149" y="0.0" width="17.333333333333343" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="五" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbQ-85-Zuc">
-                                        <rect key="frame" x="218.33333333333334" y="0.0" width="17.333333333333343" height="20.333333333333332"/>
+                                        <rect key="frame" x="198.33333333333334" y="0.0" width="17.333333333333343" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="六" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iow-lt-PX2">
-                                        <rect key="frame" x="273" y="0.0" width="17.333333333333314" height="20.333333333333332"/>
+                                        <rect key="frame" x="248.00000000000003" y="0.0" width="17.333333333333343" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDb-aj-y8Q">
-                                        <rect key="frame" x="327.66666666666669" y="0.0" width="17.333333333333314" height="20.333333333333332"/>
+                                        <rect key="frame" x="297.66666666666669" y="0.0" width="17.333333333333314" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -107,7 +107,7 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Dgp-MY-RHS" customClass="thisWeekCollectionView" customModule="yibaifen" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="123.33333333333331" width="375" height="605.66666666666674"/>
+                                <rect key="frame" x="30" y="123.33333333333331" width="345" height="605.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QAr-BW-AQw">
                                     <size key="itemSize" width="50" height="50"/>
@@ -126,20 +126,29 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aT7-sw-8DA">
+                                <rect key="frame" x="0.0" y="88" width="30" height="641"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="C1t-Fc-nUl" firstAttribute="trailing" secondItem="Uld-y0-OOQ" secondAttribute="trailing" constant="15" id="8aC-JZ-P1a"/>
+                            <constraint firstAttribute="trailing" secondItem="aT7-sw-8DA" secondAttribute="trailing" constant="345" id="Bn5-d1-08I"/>
                             <constraint firstItem="Uld-y0-OOQ" firstAttribute="top" secondItem="C1t-Fc-nUl" secondAttribute="top" constant="5" id="Eko-Yp-ad8"/>
-                            <constraint firstItem="Uld-y0-OOQ" firstAttribute="leading" secondItem="C1t-Fc-nUl" secondAttribute="leading" constant="15" id="GBo-cl-tBu"/>
+                            <constraint firstItem="Uld-y0-OOQ" firstAttribute="leading" secondItem="aT7-sw-8DA" secondAttribute="trailing" constant="15" id="Hda-dg-11Q"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="trailing" secondItem="C1t-Fc-nUl" secondAttribute="trailing" id="JS5-d0-yVk"/>
-                            <constraint firstItem="Dgp-MY-RHS" firstAttribute="leading" secondItem="C1t-Fc-nUl" secondAttribute="leading" id="KBd-E5-4YW"/>
+                            <constraint firstItem="aT7-sw-8DA" firstAttribute="bottom" secondItem="Dgp-MY-RHS" secondAttribute="bottom" id="RCD-Ok-PUD"/>
+                            <constraint firstItem="aT7-sw-8DA" firstAttribute="top" secondItem="C1t-Fc-nUl" secondAttribute="top" id="WIM-jV-1Z2"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="bottom" secondItem="C1t-Fc-nUl" secondAttribute="bottom" id="dIJ-Ed-m9z"/>
                             <constraint firstItem="Dgp-MY-RHS" firstAttribute="top" secondItem="Uld-y0-OOQ" secondAttribute="bottom" constant="10" id="fvB-sO-pZD"/>
+                            <constraint firstItem="Dgp-MY-RHS" firstAttribute="leading" secondItem="aT7-sw-8DA" secondAttribute="trailing" id="p9o-aZ-0E7"/>
+                            <constraint firstItem="aT7-sw-8DA" firstAttribute="leading" secondItem="JRg-yJ-DN0" secondAttribute="leading" id="r0D-sn-BgX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C1t-Fc-nUl"/>
                     </view>
-                    <navigationItem key="navigationItem" title="本周的学习" id="A8D-ZL-Eng"/>
+                    <navigationItem key="navigationItem" title="本周的学习" id="A8D-ZL-Eng">
+                        <barButtonItem key="rightBarButtonItem" title="生成复习!" id="S6x-vg-1TZ"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftp-Cr-PX5" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,29 +263,16 @@
             </objects>
             <point key="canvasLocation" x="1438" y="-1126"/>
         </scene>
-        <!--专注-->
+        <!--复习高等数学-->
         <scene sceneID="RxJ-xu-7dg">
             <objects>
-                <viewController id="QFB-wP-SaT" customClass="tomatoViewController" customModule="yibaifen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="zhuanzhu" id="QFB-wP-SaT" customClass="tomatoViewController" customModule="yibaifen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2S5-Vn-KhD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDR-ow-rXX">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="复习高等数学" id="N59-0L-3Km">
-                                        <barButtonItem key="leftBarButtonItem" title="编辑" id="lrO-if-1Zw"/>
-                                        <barButtonItem key="rightBarButtonItem" title="倒计时" id="E97-qm-8Y7">
-                                            <connections>
-                                                <action selector="reverseTimeModel:" destination="QFB-wP-SaT" id="LFp-iK-vdg"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YI-Bw-Y5z">
-                                <rect key="frame" x="70" y="208" width="235" height="235"/>
+                                <rect key="frame" x="70" y="252" width="235" height="235"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mM9-Uh-fk9">
                                         <rect key="frame" x="0.0" y="0.0" width="235" height="235"/>
@@ -302,6 +298,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjy-G5-3gm">
                                 <rect key="frame" x="132" y="523" width="112" height="34"/>
                                 <color key="backgroundColor" red="0.1068627098" green="0.4470701514" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Gwp-wO-cfg"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="开始学习! ">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -324,19 +323,24 @@
                         <constraints>
                             <constraint firstItem="iWj-2a-3pJ" firstAttribute="bottom" secondItem="dug-A0-geJ" secondAttribute="bottom" constant="10" id="1tn-ZD-7Al"/>
                             <constraint firstItem="Qjy-G5-3gm" firstAttribute="top" secondItem="3YI-Bw-Y5z" secondAttribute="bottom" constant="80" id="4FP-zc-WW5"/>
-                            <constraint firstItem="rDR-ow-rXX" firstAttribute="top" secondItem="iWj-2a-3pJ" secondAttribute="top" id="5iT-Eg-54V"/>
                             <constraint firstItem="Qjy-G5-3gm" firstAttribute="centerX" secondItem="iWj-2a-3pJ" secondAttribute="centerX" id="AeI-rv-Te3"/>
                             <constraint firstItem="iWj-2a-3pJ" firstAttribute="trailing" secondItem="3YI-Bw-Y5z" secondAttribute="trailing" constant="70" id="Hwd-Vs-det"/>
-                            <constraint firstItem="3YI-Bw-Y5z" firstAttribute="top" secondItem="rDR-ow-rXX" secondAttribute="bottom" constant="120" id="LTY-mb-wYR"/>
-                            <constraint firstItem="rDR-ow-rXX" firstAttribute="leading" secondItem="2S5-Vn-KhD" secondAttribute="leading" id="Poz-Nk-VXN"/>
-                            <constraint firstItem="rDR-ow-rXX" firstAttribute="trailing" secondItem="iWj-2a-3pJ" secondAttribute="trailing" id="Pzk-z7-P1G"/>
                             <constraint firstItem="dug-A0-geJ" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="58" id="hNK-rk-sk1"/>
+                            <constraint firstItem="Qjy-G5-3gm" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="132" id="mC9-Vs-QoA"/>
                             <constraint firstItem="dug-A0-geJ" firstAttribute="centerX" secondItem="3YI-Bw-Y5z" secondAttribute="centerX" id="oag-lZ-m0T"/>
+                            <constraint firstItem="3YI-Bw-Y5z" firstAttribute="top" secondItem="iWj-2a-3pJ" secondAttribute="top" constant="164" id="ykD-RP-5Cl"/>
                             <constraint firstItem="3YI-Bw-Y5z" firstAttribute="leading" secondItem="iWj-2a-3pJ" secondAttribute="leading" constant="70" id="zq0-tZ-zVZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iWj-2a-3pJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="专注" image="fanqie" id="S8W-yL-5wb"/>
+                    <navigationItem key="navigationItem" title="复习高等数学" id="Yr8-6E-Wg9">
+                        <barButtonItem key="leftBarButtonItem" title="编辑" id="lrO-if-1Zw"/>
+                        <barButtonItem key="rightBarButtonItem" title="倒计时" id="E97-qm-8Y7">
+                            <connections>
+                                <action selector="reverseTimeModel:" destination="QFB-wP-SaT" id="LFp-iK-vdg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="editBut" destination="lrO-if-1Zw" id="L3w-2N-l4t"/>
                         <outlet property="reserBut" destination="E97-qm-8Y7" id="i2l-k4-Qj0"/>
@@ -347,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UjA-MO-M0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5999999999999" y="326.60098522167488"/>
+            <point key="canvasLocation" x="2380" y="326.60098522167488"/>
         </scene>
         <!--我的-->
         <scene sceneID="M4A-t4-JmS">
@@ -516,7 +520,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kHt-Mo-ZeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2393" y="2099"/>
+            <point key="canvasLocation" x="4188" y="1189"/>
+        </scene>
+        <!--专注-->
+        <scene sceneID="eef-zc-o9o">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LHG-0p-789" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="专注" image="fanqie" id="S8W-yL-5wb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mCT-cF-ANs">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QFB-wP-SaT" kind="relationship" relationship="rootViewController" id="Blj-lN-OvQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y1l-Lx-PON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1437.5999999999999" y="326.60098522167488"/>
         </scene>
     </scenes>
     <resources>

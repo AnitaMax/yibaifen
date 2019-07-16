@@ -54,6 +54,14 @@ class TodayTaskTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let zhuanzhu=(self.tabBarController?.viewControllers?[1] as! UINavigationController).viewControllers[0] as! tomatoViewController
+        let title=(self.tableView.cellForRow(at: indexPath) as! TodayTaskTableViewCell).contentLabel.text ?? "复习高数"
+        zhuanzhu.updateContent(title: title)
+       // zhuanzhu.titleLabel.title = (self.tableView.cellForRow(at: indexPath) as! TodayTaskTableViewCell).contentLabel.text
+        self.tabBarController?.selectedIndex = 1
+       
+    }
 
     /*
     // Override to support conditional editing of the table view.

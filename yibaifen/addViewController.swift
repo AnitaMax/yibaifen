@@ -13,7 +13,7 @@ class addViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title="新任务"
+        self.navigationItem.title="新课程"
         self.navigationItem.leftBarButtonItem=UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(backToPrevious) )
         self.navigationItem.rightBarButtonItem=UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(backToPrevious) )
         self.view.backgroundColor=UIColor.blue

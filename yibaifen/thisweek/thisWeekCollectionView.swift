@@ -18,20 +18,20 @@ class thisWeekCollectionView: UICollectionView ,UICollectionViewDelegate,UIColle
     }
     func setlayout(){
         let layout = UICollectionViewFlowLayout.init()
-        let wid=(self.bounds.width-30)/7
+        let wid=(self.bounds.width-0)/7
         layout.itemSize = CGSize.init(width: wid, height: 100)
         //layout.minimumLineSpacing = 30
-        layout.minimumInteritemSpacing = 5
+        layout.minimumInteritemSpacing = 0
         layout.sectionInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
         
         self.collectionViewLayout = layout
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
+        return 6
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 9
+        return 7
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

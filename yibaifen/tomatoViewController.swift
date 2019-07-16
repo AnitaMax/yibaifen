@@ -58,10 +58,15 @@ class tomatoViewController: UIViewController {
     var start = false
     var reverse:Bool = false
     
+
     @IBOutlet weak var editBut: UIBarButtonItem!
     
     @IBOutlet weak var reserBut: UIBarButtonItem!
     
+    
+    func updateContent(title:String){
+        self.navigationItem.title = title
+    }
 
     func endStart(){
         startBut.setTitle("  开始学习!  ", for: .normal)
