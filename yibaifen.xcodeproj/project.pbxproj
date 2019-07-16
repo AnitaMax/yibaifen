@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CC34974FEE9D625B63A86BF8 /* Pods_yibaifen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FE4C13D0E7754156557A82 /* Pods_yibaifen.framework */; };
+		E604126722DDCD5200DF43A2 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126322DDCD5200DF43A2 /* MeTableViewController.swift */; };
+		E604126922DDCD5200DF43A2 /* LevelMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */; };
+		E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */; };
+		E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */; };
+		E604126F22DDCEF100DF43A2 /* InfoMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */; };
 		E6677E3322DB104500D6151C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6677E3222DB104500D6151C /* CardView.swift */; };
 		E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BD24E22D856EE00FF3688 /* AppDelegate.swift */; };
 		E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BD25022D856EE00FF3688 /* ViewController.swift */; };
@@ -29,6 +34,11 @@
 		023DEE9FE7DB16CB79381DC1 /* Pods-yibaifen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yibaifen.release.xcconfig"; path = "Target Support Files/Pods-yibaifen/Pods-yibaifen.release.xcconfig"; sourceTree = "<group>"; };
 		65FE4C13D0E7754156557A82 /* Pods_yibaifen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yibaifen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA979ACB9522D984DC6D511B /* Pods-yibaifen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yibaifen.debug.xcconfig"; path = "Target Support Files/Pods-yibaifen/Pods-yibaifen.debug.xcconfig"; sourceTree = "<group>"; };
+		E604126322DDCD5200DF43A2 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMeTableViewCell.swift; sourceTree = "<group>"; };
+		E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMeTableViewCell.swift; sourceTree = "<group>"; };
+		E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMeTableViewCell.swift; sourceTree = "<group>"; };
+		E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingUITableiewController.swift; sourceTree = "<group>"; };
 		E6677E3222DB104500D6151C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E68BD24B22D856EE00FF3688 /* yibaifen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yibaifen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68BD24E22D856EE00FF3688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +87,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E604126B22DDCD5D00DF43A2 /* mePage */ = {
+			isa = PBXGroup;
+			children = (
+				E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */,
+				E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */,
+				E604126322DDCD5200DF43A2 /* MeTableViewController.swift */,
+				E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */,
+			);
+			path = mePage;
+			sourceTree = "<group>";
+		};
 		E68BD24222D856EE00FF3688 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,8 @@
 				E68BD24E22D856EE00FF3688 /* AppDelegate.swift */,
 				E68BD25022D856EE00FF3688 /* ViewController.swift */,
 				E68BD25222D856EE00FF3688 /* Main.storyboard */,
+				E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */,
+				E604126B22DDCD5D00DF43A2 /* mePage */,
 				E6A934C322DB7EB0007DEF42 /* addViewController.swift */,
 				E6F7410022DC7FC300711C16 /* tomatoViewController.swift */,
 				E6A934C222DB7CEB007DEF42 /* TaskPage */,
@@ -260,13 +283,18 @@
 			files = (
 				E6F7410322DC89B900711C16 /* thisWeekCollectionViewCell.swift in Sources */,
 				E6A934B822DB586D007DEF42 /* thisWeekCollectionView.swift in Sources */,
+				E604126722DDCD5200DF43A2 /* MeTableViewController.swift in Sources */,
 				E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */,
 				E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */,
+				E604126F22DDCEF100DF43A2 /* InfoMeTableViewCell.swift in Sources */,
+				E604126922DDCD5200DF43A2 /* LevelMeTableViewCell.swift in Sources */,
 				E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */,
 				E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */,
 				E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */,
 				E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */,
 				E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */,
+				E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */,
+				E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */,
 				E6677E3322DB104500D6151C /* CardView.swift in Sources */,
 				E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */,
 			);
