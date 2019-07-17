@@ -23,10 +23,19 @@ class callBackViewController: UIViewController {
     @IBOutlet weak var normalbut: FaveButton!
     @IBOutlet weak var badbut: FaveButton!
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+
+     @IBAction func back(_ sender: FaveButton) {
+        
+        //self.navigationController?.popViewController(animated: true)
+     }
+    
+    @IBAction func back2(_ sender: UIButton) {
+        //sleep(2)
+        //self.navigationController?.popViewController(animated: true)
+    }
+    /*
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
