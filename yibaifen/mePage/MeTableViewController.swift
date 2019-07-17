@@ -116,6 +116,10 @@ class MeTableViewController: UITableViewController {
         //跳转
         self.navigationController?.pushViewController(nextPage, animated: true)
         }
+        else if(indexPath.section == 1 && indexPath.row == 0){
+            let statics=self.storyboard?.instantiateViewController(withIdentifier: "statics") as!sumviewcontrollerViewController
+            self.navigationController?.pushViewController(statics, animated: true)
+        }
       //i添加学习统计跳转
        
     }

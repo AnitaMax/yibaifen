@@ -27,6 +27,10 @@
 		E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934BE22DB7879007DEF42 /* floatAddButton.swift */; };
 		E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C022DB7989007DEF42 /* taskViewController.swift */; };
 		E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A934C322DB7EB0007DEF42 /* addViewController.swift */; };
+		E6D434FE22DF05D70002B0DB /* msgtableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D434FD22DF05D70002B0DB /* msgtableviewcell.swift */; };
+		E6D4350022DF05DC0002B0DB /* segtableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D434FF22DF05DC0002B0DB /* segtableview.swift */; };
+		E6D4350222DF05DE0002B0DB /* sumviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350122DF05DE0002B0DB /* sumviewcontrollerViewController.swift */; };
+		E6D4350622DF05E70002B0DB /* tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350522DF05E70002B0DB /* tableviewcell.swift */; };
 		E6D8513122DCDF9800072B12 /* todo.md in Resources */ = {isa = PBXBuildFile; fileRef = E6D8513022DCDF9800072B12 /* todo.md */; };
 		E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410022DC7FC300711C16 /* tomatoViewController.swift */; };
 		E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */; };
@@ -58,6 +62,10 @@
 		E6A934BE22DB7879007DEF42 /* floatAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floatAddButton.swift; sourceTree = "<group>"; };
 		E6A934C022DB7989007DEF42 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
 		E6A934C322DB7EB0007DEF42 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		E6D434FD22DF05D70002B0DB /* msgtableviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = msgtableviewcell.swift; sourceTree = "<group>"; };
+		E6D434FF22DF05DC0002B0DB /* segtableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segtableview.swift; sourceTree = "<group>"; };
+		E6D4350122DF05DE0002B0DB /* sumviewcontrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumviewcontrollerViewController.swift; sourceTree = "<group>"; };
+		E6D4350522DF05E70002B0DB /* tableviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewcell.swift; sourceTree = "<group>"; };
 		E6D8513022DCDF9800072B12 /* todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = todo.md; sourceTree = "<group>"; };
 		E6F7410022DC7FC300711C16 /* tomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoViewController.swift; sourceTree = "<group>"; };
 		E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 				E68BD24E22D856EE00FF3688 /* AppDelegate.swift */,
 				E68BD25022D856EE00FF3688 /* ViewController.swift */,
 				E68BD25222D856EE00FF3688 /* Main.storyboard */,
+				E6D4350722DF06080002B0DB /* statics */,
 				E604126B22DDCD5D00DF43A2 /* mePage */,
 				E604127E22DE203100DF43A2 /* tomato */,
 				E6A934C222DB7CEB007DEF42 /* TaskPage */,
@@ -180,6 +189,17 @@
 				E6A934C322DB7EB0007DEF42 /* addViewController.swift */,
 			);
 			path = TaskPage;
+			sourceTree = "<group>";
+		};
+		E6D4350722DF06080002B0DB /* statics */ = {
+			isa = PBXGroup;
+			children = (
+				E6D4350122DF05DE0002B0DB /* sumviewcontrollerViewController.swift */,
+				E6D434FD22DF05D70002B0DB /* msgtableviewcell.swift */,
+				E6D434FF22DF05DC0002B0DB /* segtableview.swift */,
+				E6D4350522DF05E70002B0DB /* tableviewcell.swift */,
+			);
+			path = statics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +327,7 @@
 				E604126922DDCD5200DF43A2 /* LevelMeTableViewCell.swift in Sources */,
 				E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */,
 				E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */,
+				E6D4350622DF05E70002B0DB /* tableviewcell.swift in Sources */,
 				E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */,
 				E604127D22DE202300DF43A2 /* callBackViewController.swift in Sources */,
 				E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */,
@@ -315,8 +336,11 @@
 				E604127122DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift in Sources */,
 				E604127722DE041B00DF43A2 /* numberCollectionViewCell.swift in Sources */,
 				E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */,
+				E6D4350222DF05DE0002B0DB /* sumviewcontrollerViewController.swift in Sources */,
 				E6677E3322DB104500D6151C /* CardView.swift in Sources */,
+				E6D4350022DF05DC0002B0DB /* segtableview.swift in Sources */,
 				E6A934C422DB7EB0007DEF42 /* addViewController.swift in Sources */,
+				E6D434FE22DF05D70002B0DB /* msgtableviewcell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
