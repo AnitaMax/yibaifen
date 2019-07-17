@@ -31,6 +31,7 @@
 		E6D4350F22DF185A0002B0DB /* LevelMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350B22DF185A0002B0DB /* LevelMeTableViewCell.swift */; };
 		E6D4351022DF185A0002B0DB /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350C22DF185A0002B0DB /* MeTableViewController.swift */; };
 		E6D4351122DF185A0002B0DB /* InfoMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350D22DF185A0002B0DB /* InfoMeTableViewCell.swift */; };
+		E6D4351322DF1EBA0002B0DB /* thisWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4351222DF1EBA0002B0DB /* thisWeekViewController.swift */; };
 		E6D8513122DCDF9800072B12 /* todo.md in Resources */ = {isa = PBXBuildFile; fileRef = E6D8513022DCDF9800072B12 /* todo.md */; };
 		E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410022DC7FC300711C16 /* tomatoViewController.swift */; };
 		E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */; };
@@ -66,6 +67,7 @@
 		E6D4350B22DF185A0002B0DB /* LevelMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMeTableViewCell.swift; sourceTree = "<group>"; };
 		E6D4350C22DF185A0002B0DB /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
 		E6D4350D22DF185A0002B0DB /* InfoMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMeTableViewCell.swift; sourceTree = "<group>"; };
+		E6D4351222DF1EBA0002B0DB /* thisWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisWeekViewController.swift; sourceTree = "<group>"; };
 		E6D8513022DCDF9800072B12 /* todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = todo.md; sourceTree = "<group>"; };
 		E6F7410022DC7FC300711C16 /* tomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoViewController.swift; sourceTree = "<group>"; };
 		E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		E6A934BB22DB597C007DEF42 /* thisweek */ = {
 			isa = PBXGroup;
 			children = (
+				E6D4351222DF1EBA0002B0DB /* thisWeekViewController.swift */,
 				E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */,
 				E6A934B722DB586D007DEF42 /* thisWeekCollectionView.swift */,
 				E604127622DE041B00DF43A2 /* numberCollectionViewCell.swift */,
@@ -320,6 +323,7 @@
 			files = (
 				E6A934B822DB586D007DEF42 /* thisWeekCollectionView.swift in Sources */,
 				E604127922DE0FBC00DF43A2 /* tasks.swift in Sources */,
+				E6D4351322DF1EBA0002B0DB /* thisWeekViewController.swift in Sources */,
 				E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */,
 				E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */,
 				E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */,

@@ -52,7 +52,7 @@
         <!--本周的学习-->
         <scene sceneID="U7Q-2Z-RVc">
             <objects>
-                <viewController id="XeY-Sb-73y" sceneMemberID="viewController">
+                <viewController id="XeY-Sb-73y" customClass="thisWeekViewController" customModule="yibaifen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JRg-yJ-DN0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,8 +217,15 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="本周的学习" id="A8D-ZL-Eng">
-                        <barButtonItem key="rightBarButtonItem" title="生成复习!" id="S6x-vg-1TZ"/>
+                        <barButtonItem key="rightBarButtonItem" title="生成复习!" id="S6x-vg-1TZ">
+                            <connections>
+                                <action selector="generateReview:" destination="XeY-Sb-73y" id="IpS-gS-hYz"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="thisWeekCollection" destination="Dgp-MY-RHS" id="sC3-Lv-co8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftp-Cr-PX5" sceneMemberID="firstResponder"/>
             </objects>

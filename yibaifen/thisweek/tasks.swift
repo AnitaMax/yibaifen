@@ -14,12 +14,21 @@ class task{
     var content:String
     var place:String
     var color:UIColor
-    
+    var review:Bool = false
+   /*
     init(day:Int,time:Int,content:String,place:String,color:UIColor) {
         self.day=day
         self.time=time
         self.content=content
         self.place=place
         self.color=color
+    }*/
+    init(day:Int,time:Int,content:String,place:String,color:UIColor,review:Bool = false) {
+        self.day=day
+        self.time=time
+        self.content=content
+        self.place=place
+        self.color=color
+        self.review=review
     }
 }

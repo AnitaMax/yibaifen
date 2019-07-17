@@ -14,10 +14,14 @@ class thisWeekCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var placeLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        setNotEnable()
+
+    }
+    func setNotEnable(){
         contentLabel.text = ""
         placeLabel.text = ""
         self.isUserInteractionEnabled = false
-
+        self.layer.borderWidth = 0
     }
 
     func setStyle(color:UIColor){
