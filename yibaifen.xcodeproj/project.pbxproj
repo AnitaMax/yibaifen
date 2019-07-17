@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC34974FEE9D625B63A86BF8 /* Pods_yibaifen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FE4C13D0E7754156557A82 /* Pods_yibaifen.framework */; };
-		E604126722DDCD5200DF43A2 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126322DDCD5200DF43A2 /* MeTableViewController.swift */; };
-		E604126922DDCD5200DF43A2 /* LevelMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */; };
-		E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */; };
-		E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */; };
-		E604126F22DDCEF100DF43A2 /* InfoMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */; };
 		E604127122DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */; };
 		E604127722DE041B00DF43A2 /* numberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604127622DE041B00DF43A2 /* numberCollectionViewCell.swift */; };
 		E604127922DE0FBC00DF43A2 /* tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604127822DE0FBC00DF43A2 /* tasks.swift */; };
@@ -31,6 +26,11 @@
 		E6D4350022DF05DC0002B0DB /* segtableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D434FF22DF05DC0002B0DB /* segtableview.swift */; };
 		E6D4350222DF05DE0002B0DB /* sumviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350122DF05DE0002B0DB /* sumviewcontrollerViewController.swift */; };
 		E6D4350622DF05E70002B0DB /* tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350522DF05E70002B0DB /* tableviewcell.swift */; };
+		E6D4350922DF184D0002B0DB /* SettingUITableiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350822DF184D0002B0DB /* SettingUITableiewController.swift */; };
+		E6D4350E22DF185A0002B0DB /* ProfileMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350A22DF185A0002B0DB /* ProfileMeTableViewCell.swift */; };
+		E6D4350F22DF185A0002B0DB /* LevelMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350B22DF185A0002B0DB /* LevelMeTableViewCell.swift */; };
+		E6D4351022DF185A0002B0DB /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350C22DF185A0002B0DB /* MeTableViewController.swift */; };
+		E6D4351122DF185A0002B0DB /* InfoMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4350D22DF185A0002B0DB /* InfoMeTableViewCell.swift */; };
 		E6D8513122DCDF9800072B12 /* todo.md in Resources */ = {isa = PBXBuildFile; fileRef = E6D8513022DCDF9800072B12 /* todo.md */; };
 		E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F7410022DC7FC300711C16 /* tomatoViewController.swift */; };
 		E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */; };
@@ -41,11 +41,6 @@
 		023DEE9FE7DB16CB79381DC1 /* Pods-yibaifen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yibaifen.release.xcconfig"; path = "Target Support Files/Pods-yibaifen/Pods-yibaifen.release.xcconfig"; sourceTree = "<group>"; };
 		65FE4C13D0E7754156557A82 /* Pods_yibaifen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yibaifen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA979ACB9522D984DC6D511B /* Pods-yibaifen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yibaifen.debug.xcconfig"; path = "Target Support Files/Pods-yibaifen/Pods-yibaifen.debug.xcconfig"; sourceTree = "<group>"; };
-		E604126322DDCD5200DF43A2 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
-		E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMeTableViewCell.swift; sourceTree = "<group>"; };
-		E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMeTableViewCell.swift; sourceTree = "<group>"; };
-		E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMeTableViewCell.swift; sourceTree = "<group>"; };
-		E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingUITableiewController.swift; sourceTree = "<group>"; };
 		E604127022DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thisWeekCollectionViewCell.swift; sourceTree = "<group>"; };
 		E604127622DE041B00DF43A2 /* numberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberCollectionViewCell.swift; sourceTree = "<group>"; };
 		E604127822DE0FBC00DF43A2 /* tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasks.swift; sourceTree = "<group>"; };
@@ -66,6 +61,11 @@
 		E6D434FF22DF05DC0002B0DB /* segtableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segtableview.swift; sourceTree = "<group>"; };
 		E6D4350122DF05DE0002B0DB /* sumviewcontrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumviewcontrollerViewController.swift; sourceTree = "<group>"; };
 		E6D4350522DF05E70002B0DB /* tableviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewcell.swift; sourceTree = "<group>"; };
+		E6D4350822DF184D0002B0DB /* SettingUITableiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingUITableiewController.swift; sourceTree = "<group>"; };
+		E6D4350A22DF185A0002B0DB /* ProfileMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMeTableViewCell.swift; sourceTree = "<group>"; };
+		E6D4350B22DF185A0002B0DB /* LevelMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMeTableViewCell.swift; sourceTree = "<group>"; };
+		E6D4350C22DF185A0002B0DB /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		E6D4350D22DF185A0002B0DB /* InfoMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMeTableViewCell.swift; sourceTree = "<group>"; };
 		E6D8513022DCDF9800072B12 /* todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = todo.md; sourceTree = "<group>"; };
 		E6F7410022DC7FC300711C16 /* tomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoViewController.swift; sourceTree = "<group>"; };
 		E6FCB62322D9CBAE00015811 /* TodayTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTaskTableViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +104,11 @@
 		E604126B22DDCD5D00DF43A2 /* mePage */ = {
 			isa = PBXGroup;
 			children = (
-				E604126D22DDCDF000DF43A2 /* SettingUITableiewController.swift */,
-				E604126C22DDCD5D00DF43A2 /* InfoMeTableViewCell.swift */,
-				E604126522DDCD5200DF43A2 /* LevelMeTableViewCell.swift */,
-				E604126322DDCD5200DF43A2 /* MeTableViewController.swift */,
-				E604126622DDCD5200DF43A2 /* ProfileMeTableViewCell.swift */,
+				E6D4350822DF184D0002B0DB /* SettingUITableiewController.swift */,
+				E6D4350D22DF185A0002B0DB /* InfoMeTableViewCell.swift */,
+				E6D4350B22DF185A0002B0DB /* LevelMeTableViewCell.swift */,
+				E6D4350C22DF185A0002B0DB /* MeTableViewController.swift */,
+				E6D4350A22DF185A0002B0DB /* ProfileMeTableViewCell.swift */,
 			);
 			path = mePage;
 			sourceTree = "<group>";
@@ -319,23 +319,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6A934B822DB586D007DEF42 /* thisWeekCollectionView.swift in Sources */,
-				E604126722DDCD5200DF43A2 /* MeTableViewController.swift in Sources */,
 				E604127922DE0FBC00DF43A2 /* tasks.swift in Sources */,
 				E68BD25122D856EE00FF3688 /* ViewController.swift in Sources */,
 				E6A934BF22DB7879007DEF42 /* floatAddButton.swift in Sources */,
-				E604126F22DDCEF100DF43A2 /* InfoMeTableViewCell.swift in Sources */,
-				E604126922DDCD5200DF43A2 /* LevelMeTableViewCell.swift in Sources */,
 				E68BD24F22D856EE00FF3688 /* AppDelegate.swift in Sources */,
+				E6D4350E22DF185A0002B0DB /* ProfileMeTableViewCell.swift in Sources */,
+				E6D4350F22DF185A0002B0DB /* LevelMeTableViewCell.swift in Sources */,
 				E6F7410122DC7FC300711C16 /* tomatoViewController.swift in Sources */,
 				E6D4350622DF05E70002B0DB /* tableviewcell.swift in Sources */,
 				E6A934C122DB7989007DEF42 /* taskViewController.swift in Sources */,
 				E604127D22DE202300DF43A2 /* callBackViewController.swift in Sources */,
 				E6FCB62622D9CC0600015811 /* TodayTaskTableViewCell.swift in Sources */,
 				E6FCB62422D9CBAE00015811 /* TodayTaskTableViewController.swift in Sources */,
-				E604126A22DDCD5200DF43A2 /* ProfileMeTableViewCell.swift in Sources */,
 				E604127122DDD66C00DF43A2 /* thisWeekCollectionViewCell.swift in Sources */,
 				E604127722DE041B00DF43A2 /* numberCollectionViewCell.swift in Sources */,
-				E604126E22DDCDF000DF43A2 /* SettingUITableiewController.swift in Sources */,
+				E6D4351022DF185A0002B0DB /* MeTableViewController.swift in Sources */,
+				E6D4351122DF185A0002B0DB /* InfoMeTableViewCell.swift in Sources */,
+				E6D4350922DF184D0002B0DB /* SettingUITableiewController.swift in Sources */,
 				E6D4350222DF05DE0002B0DB /* sumviewcontrollerViewController.swift in Sources */,
 				E6677E3322DB104500D6151C /* CardView.swift in Sources */,
 				E6D4350022DF05DC0002B0DB /* segtableview.swift in Sources */,

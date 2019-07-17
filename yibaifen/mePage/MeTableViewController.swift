@@ -20,6 +20,16 @@ class MeTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+       //cant't slide
+        self.tableView.isScrollEnabled = false
+         //hide the extra lines
+        let view = UIView()
+        view.backgroundColor = UIColor.clear
+        tableView.tableFooterView = view
+        
+        
+       
     }
 
     // MARK: - Table view data source
@@ -58,6 +68,8 @@ class MeTableViewController: UITableViewController {
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: "LevelMeTableViewCell", for: indexPath) as? LevelMeTableViewCell else{
                     fatalError("level transition1 wrong")
             }
+                let photo = UIImage(named: "level")
+                cell.levelImage.image = photo
                 return cell
         }
     }
@@ -92,7 +104,7 @@ class MeTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if(indexPath.section==0 && indexPath.row==0){
-            return 150
+            return 100
         }
         return 60
     }
@@ -117,12 +129,13 @@ class MeTableViewController: UITableViewController {
         self.navigationController?.pushViewController(nextPage, animated: true)
         }
         else if(indexPath.section == 1 && indexPath.row == 0){
-            let statics=self.storyboard?.instantiateViewController(withIdentifier: "statics") as!sumviewcontrollerViewController
+            let statics = self.storyboard?.instantiateViewController(withIdentifier: "statics") as! sumviewcontrollerViewController
             self.navigationController?.pushViewController(statics, animated: true)
         }
       //i添加学习统计跳转
        
     }
+    
     
     
     /*

@@ -30,7 +30,10 @@ class TodayTaskTableViewController: UITableViewController,UNUserNotificationCent
         b.setTitle("10秒钟之后发送通知", for: .normal)
         b.setTitleColor(UIColor.red, for: .normal)
         b.addTarget(self, action: #selector(send), for: .touchUpInside)
-        view.addSubview(b)
+        //view.addSubview(b)
+        
+        let but = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(send))
+        self.navigationItem.rightBarButtonItem = but
         
         // 1. 注册通知权限
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound, .carPlay]) { (success, error) in

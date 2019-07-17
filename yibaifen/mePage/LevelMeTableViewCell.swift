@@ -13,6 +13,7 @@ class LevelMeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var levelLabel: UILabel!
     
+    @IBOutlet weak var levelImage: UIImageView!
     
     
     override func awakeFromNib() {
