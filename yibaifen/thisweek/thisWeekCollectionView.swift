@@ -96,15 +96,25 @@ class thisWeekCollectionView: UICollectionView ,UICollectionViewDelegate,UIColle
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let wid=(self.bounds.width-30)/7
+
+        var wid=(self.bounds.width-30)/7
         if(indexPath.row==0){
-                    return CGSize(width: 30, height: 120)
+              return CGSize(width: 30, height: 120)
+            
+        }
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            wid=(self.bounds.width-30-0*7-10)/7
             
         }
         return  CGSize(width: wid, height: 120)
 
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        
+        if(UIDevice.current.userInterfaceIdiom == .pad){
+            return 0
+            
+        }
         return 0
     }
     
